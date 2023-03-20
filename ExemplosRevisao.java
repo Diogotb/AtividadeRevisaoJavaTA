@@ -29,7 +29,7 @@ public class ExemplosRevisao {
         double frequencia = (aulasDadas-nfaltas)/aulasDadas;
         frequencia *=100; //transformando em %porcentagem
         //8. Mostrar a % de Frequencia do aluno
-        System.out.println("O aluno teve "+frequencia+"%");
+        System.out.println("O aluno teve "+frequencia+"% de frequência");
         //9.se (media>=50 e Frequencia>=75)
         if(media>=50 && frequencia>=75){
             System.out.println("Aluno Aprovado");
